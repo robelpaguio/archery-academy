@@ -12,6 +12,9 @@ header{
   position: fixed;
   top: 0;
 }
+nav{
+  float:right;
+}
 footer{
   background: url('images/footer-image.jpg') center;
   padding: 20px 100px 20px;
@@ -20,6 +23,11 @@ footer{
 }
 h1 {
   font-size: 4em;
+}
+nav a{
+  font-size: 1.8em;
+  color: white;
+  text-decoration: none;
 }
 .main{
   padding-top:90px;
@@ -46,6 +54,11 @@ padding: 40px;
 #intro-section{
     height: 500px;
     width: 100%;
+}
+#about-intro{
+    height: 500px;
+    width: 100%;
+    padding: 80px 100px;
 }
 #services-section{
   clear:both;
